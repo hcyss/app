@@ -1,0 +1,143 @@
+{
+	"code": 1,
+	"message": "成功",
+	"data": {
+		"mine": {
+			"totalScore": 2000,
+			"rank": 2,
+			"schoolName": "羊村小学附属幼儿园",
+			"name": "张三",
+			"correctRate": 82.21,
+			"averageTime": 2132
+		},
+		"list": [{
+				"totalScore": 2300,
+				"rank": 1,
+				"schoolName": "光明小学",
+				"name": "李四",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 2000,
+				"rank": 2,
+				"schoolName": "羊村小学",
+				"name": "张三",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1800,
+				"rank": 3,
+				"schoolName": "光明小学",
+				"name": "李三",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1740,
+				"rank": 4,
+				"schoolName": "羊村小学",
+				"name": "张四",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1700,
+				"rank": 5,
+				"schoolName": "光明小学",
+				"name": "李五",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1640,
+				"rank": 6,
+				"schoolName": "羊村小学",
+				"name": "张六",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1502,
+				"rank": 7,
+				"schoolName": "光明小学",
+				"name": "李七",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1490,
+				"rank": 8,
+				"schoolName": "羊村小学",
+				"name": "张八",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1479,
+				"rank": 9,
+				"schoolName": "光明小学",
+				"name": "李九",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1469,
+				"rank": 10,
+				"schoolName": "羊村小学",
+				"name": "张十",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1412,
+				"rank": 11,
+				"schoolName": "光明小学",
+				"name": "李十一广",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1300,
+				"rank": 12,
+				"schoolName": "羊村小学",
+				"name": "张十二",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1000,
+				"rank": 13,
+				"schoolName": "光明小学",
+				"name": "李十三",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 900,
+				"rank": 14,
+				"schoolName": "羊村小学",
+				"name": "张十四",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 800,
+				"rank": 15,
+				"schoolName": "光明小学",
+				"name": "李十五",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			},
+			{
+				"totalScore": 1,
+				"rank": 16,
+				"schoolName": "羊村小学",
+				"name": "张十六",
+				"correctRate": 82.21,
+				"averageTime": 2132
+			}
+		]
+	}
+}
