@@ -1,0 +1,5 @@
+.hbuilderx
+.vscode
+node_modules
+unpackage/cache
+unpackage/dist
