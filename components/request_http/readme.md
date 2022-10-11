@@ -56,7 +56,7 @@ function del(url,data){
   import api from '@/http/'
 	
 	// 全局挂载后使用
-	Vue.prototype.$api = api
+	Vue.prototype.$api = $http
 ```
 
 ``` // pages/index/index.vue
@@ -80,15 +80,20 @@ function del(url,data){
 		methods: {
 			// 方式一
 			test(){
-							this.$api.get('/v1/miniprogram/device/'+'21040011515')
-							.then(res=>{
-								this.name = res.data.data.clazz_name
-							})
-						}
+				const data ={
+					current:1,
+					size:10,
+					fileType:0
+				}
+				this.$http.get('/v1/miniprogram/device/',data)
+				.then(res=>{
+					this.name = res.data.data.clazz_name
+				})
+			}
 			
 			//方式二
 			async test(){
-							let res = await this.$api.get('/v1/miniprogram/device/'+'21040011515')
+							let res = await this.$http.get('/v1/miniprogram/device/'+'21040011515')
 						}
 		}
 	}

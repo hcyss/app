@@ -50,9 +50,10 @@ async function login() {
 	})
 }
 
+// token校验
 async function doRequest(response, url) {
 	var code = await login()
-	var res = await get('/v1/oauth/refreshToken/code/'+code, {})
+	var res = await get('/v1/xxx/refreshToken/code/'+code, {})
 	if (res && res.data.data.token) {
 		let config = response.config
 		uni.setStorageSync("token", res.data.data.token);
