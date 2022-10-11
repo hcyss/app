@@ -1,6 +1,6 @@
 <template>
 	<view class="background">
-		<image class="bg-img" src="https://s6.jpg.cm/2022/09/20/PUJsoL.webp"></image>
+		<image class="bg-img" src="https://s6.jpg.cm/2022/09/20/PUJsoL.web"></image>
 			<view class="dlogin">
 				<view class="wxdlogin">
 					<view class="phonetext" @click="">
@@ -19,7 +19,7 @@
 	<!-- 	#ifdef MP-WEIXIN
 		<button type="primary" open-type="getUserInfo" @getuserinfo="mpGetUserInfo">微信登录</button>
 	 -->	
-		
+		</view>
 	</view>
 </template>
 
