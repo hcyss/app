@@ -1,6 +1,6 @@
 <template>
 	<view class="background">
-		<image class="bg-img" src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201507%2F04%2F20150704104256_tXsFN.jpeg&refer=http%3A%2F%2Fb-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1668074507&t=ea6f504643715cf0a4fd59498ad4feb2"></image>
+		<image class="bg-img" src="../../static/test.png"></image>
 			<view class="dlogin">
 				<view class="wxdlogin">
 					<view class="phonetext" @click="">
