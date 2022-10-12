@@ -1,7 +1,13 @@
 # dev-campus-uni-app
+## 组件框架
+### uni-ui 是基于uni-app的、全端兼容的、高性能UI框架
+代码示例地址 ：https://ext.dcloud.net.cn/plugin?id=4941
+
+组件演示地址：https://hellouniapp.dcloud.net.cn
+
+组件文档地址：https://uniapp.dcloud.io/component/uniui/uni-ui
 ## Git开发规范
 ### type 说明 (必填)
-
 feat: 添加新特性（新功能）
 
 fix: 修复bug
