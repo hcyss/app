@@ -51,15 +51,6 @@
 				}
 			
 		},
-		{	// 首页
-			"path" : "pages/page_code/page-specifics/page-specifics",
-			"style" :                                                                                    
-			{
-				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
-			}
-			
-		},
 		{	// 聊天室
 			"path" : "pages/page_code/page-news/page-chatroom/page-chatroom",
 			"style" :                                                                                    
@@ -68,8 +59,16 @@
 				"enablePullDownRefresh": false
 			}
 			
-		}
-       
+		},
+		{	// 动态详情页面
+            "path" : "pages/page_code/page-common/page-specifics/page-specifics",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
