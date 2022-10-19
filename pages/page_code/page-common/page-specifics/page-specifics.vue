@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<u-button text="月落"></u-button>
+		
 	</view>
 </template>
 
