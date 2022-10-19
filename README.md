@@ -1,8 +1,8 @@
 # dev-campus-uni-app
 ## 组件框架
 ### uni-ui 是基于uni-app的、全端兼容的、高性能UI框架
-#### 当前使用版本 2.0.34 （2022-09-25)
-#### 引入时间 2022-10-19
+#### 当前使用版本 1.4.22（2022-09-19)
+#### 引入时间 2022-9-30
 代码示例地址 ：https://ext.dcloud.net.cn/plugin?id=4941
 
 组件演示地址：https://hellouniapp.dcloud.net.cn
