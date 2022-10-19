@@ -1,4 +1,31 @@
 # dev-campus-uni-app
+## 项目目录架构
+	-dev-campus-uni-app
+		--common 公共区
+			---api_route 后端接口路由封装
+			---method 用于封装公共方法
+		--components 组件库
+			---request_http http请求组件
+			---uni_modules 组件模块
+				----uview-ui uView前端UI开发框架组件
+				...
+		--config 配置区
+			---baseApi 配置后端域名
+		--pages 页面区
+			---campus 校园
+			---index 首页
+			---login 登录
+			---me 我
+			---news 消息
+			---page_code 页面代码
+				----page-campus 校园页面下的功能页面（如跳转到某个页面）
+				----page-common 公共页面（其他页面会用该页面时到则写到此目录下）
+				----page-index 首页页面下的功能页面（如跳转到某个页面）
+				----page-me 我页面下的功能页面（如跳转到某个页面）
+				----page-news 消息页面下的功能页面（如跳转到某个页面）
+		--static 静态文件存放（图片、logo、icon等）
+		--utils 工具目录
+		
 ## 组件框架
 ### uni-ui 是基于uni-app的、全端兼容的、高性能UI框架
 #### 当前可使用版本 1.4.22（2022-09-19) 
@@ -39,7 +66,7 @@ build: 修改了影响构建过程或者外部依赖的文件，如修改了pom�
 
 ci: 修改了CI/CD配置文件
 
-chore: 其他不影响改变src的改变
+chore: 其他不影响只改变某文件的位置
 
 revert: 回退到之前某个commit
 
